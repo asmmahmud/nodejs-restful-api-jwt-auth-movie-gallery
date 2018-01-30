@@ -10,12 +10,9 @@ const config = {
 
 if (process.env.NODE_ENV === 'production') {
   // console.log('Production Environment');
-  // config.mongoUri = 'mongodb://localhost/imdb_films';
-  config.mongoUri =
-    'mongodb://asmscorses:9ds7fsdkhf34@ds219318.mlab.com:19318/filmdiary-restful-api-jwt-auth';
+   config.mongoUri = 'mongodb://localhost/imdb_films';
 } else {
   console.log('Development Environment');
-  // config.mongoUri = 'mongodb://localhost/film-diary-app-api';
   config.mongoUri = 'mongodb://localhost/imdb_films';
 }
 module.exports = config;

@@ -13,3 +13,8 @@ Following Packages/Libraries have been included/used:
  7) <a href="https://github.com/AndrewKeig/express-validation" target="_blank">express-validation</a>
  8) helmet
  
+
+ # Use
+ 
+ Have to edit the config/index.js file to configure database and jwt secret. 
+ 
